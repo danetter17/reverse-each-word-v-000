@@ -8,6 +8,6 @@ def reverse_each_word(sentence1)
 end
 
 def reverse_each_word(sentence1)
-  split_sentence=sentence1.split
-  split_sentence.collect {|word| word.reverse}.join(" ")
+  #split_sentence=sentence1.split
+  sentence1.split.collect {|word| word.reverse}.join(" ")
 end
